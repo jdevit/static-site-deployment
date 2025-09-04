@@ -32,15 +32,15 @@
       class="pt-32 pb-20 bg-gradient-to-br from-sky-600 to-slate-900 text-white"
     >
       <div class="container mx-auto px-6 text-center">
-        <h1 class="text-4xl md:text-5xl font-bold mb-4">Jeremy Barber</h1>
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">
+          Cloud Engineer | Linux & AWS Expert
+        </h1>
         <p class="text-xl max-w-3xl mx-auto mb-8 opacity-90">
-          AWS Solutions Architect – Associate certified Cloud Engineer with 4+
-          years of hands-on experience supporting and modernizing hybrid on-prem
-          and AWS environments. Skilled in designing secure VPC architectures,
-          automating deployments with Terraform, and building serverless
-          applications with Lambda, API Gateway, and CloudFront. Comfortable
-          working across Linux systems, networking, and hybrid infrastructure
-          including on-prem servers.
+          Welcome to my site, I'm Jeremy and I build scalable, secure, and
+          efficient cloud infrastructure solutions that power modern
+          applications. With a strong foundation in Linux systems, automation,
+          and AWS services, I help businesses streamline operations, reduce
+          costs, and scale confidently.
         </p>
         <div class="flex justify-center gap-4">
           <a
@@ -61,16 +61,19 @@
       <div class="container mx-auto px-6 max-w-3xl">
         <h2 class="text-3xl font-bold mb-4">About Me</h2>
         <p class="text-lg mb-6">
-          I’m a Cloud Engineer with a proven track record of solving complex
-          infrastructure and application challenges. My background spans AWS,
-          Linux, and networking, where I’ve designed resilient systems,
-          automated deployments, and recovered mission-critical services under
-          pressure. I’m equally comfortable with hybrid environments — from
-          on-prem servers to distributed cloud systems. I bring strong database
-          knowledge (MySQL, SQL Server), scripting skills in Bash and Python,
-          and backend experience with Node.js. Whether deploying secure AWS
-          architectures or troubleshooting production SaaS platforms, I focus on
-          delivering reliable, efficient, and business-driven solutions.
+          I’m a dedicated cloud engineer with over 5 years of experience
+          supporting enterprise clients in complex hybrid environments — from
+          Linux-based systems to AWS infrastructure. My journey began in
+          military intelligence and evolved into technical support, where I
+          honed my problem-solving and automation skills. Currently working as a
+          Linux Support Engineer at Jonas Software, I’ve improved system
+          reliability, reduced incident resolution times, and supported
+          high-traffic environments across multiple platforms. I specialize in
+          Linux administration, AWS cloud architecture, scripting (Bash/Python),
+          API troubleshooting, and secure deployment practices. Whether it's
+          deploying serverless applications, managing VPC networks, or
+          optimizing database performance, I bring both hands-on expertise and
+          strategic thinking to every project.
         </p>
         <ul class="text-gray-700">
           <li>
@@ -139,9 +142,7 @@
               <span class="bg-gray-100 p-3 rounded-full inline-block">🗄️</span>
             </div>
             <h3 class="font-semibold text-lg">Databases</h3>
-            <p class="text-sm text-gray-600 mt-2">
-              MySQL, SQL Server, DynamoDB, MongoDB
-            </p>
+            <p class="text-sm text-gray-600 mt-2">MySQL, MongoDB, DynamoDB</p>
           </div>
           <div
             class="border border-gray-200 rounded-xl p-6 hover:border-sky-500 transition-all hover:-translate-y-1 hover:shadow-lg"
@@ -155,91 +156,112 @@
               Relic
             </p>
           </div>
+          <div
+            class="border border-gray-200 rounded-xl p-6 hover:border-sky-500 transition-all hover:-translate-y-1 hover:shadow-lg"
+          >
+            <div class="text-center mb-4">
+              <span class="bg-gray-100 p-3 rounded-full inline-block">🔒</span>
+            </div>
+            <h3 class="font-semibold text-lg">Security & Monitoring</h3>
+            <p class="text-sm text-gray-600 mt-2">
+              IAM policies, VPC security groups, TLS/SSL certificates, network
+              monitoring, API troubleshooting, log analysis
+            </p>
+          </div>
+          <div
+            class="border border-gray-200 rounded-xl p-6 hover:border-sky-500 transition-all hover:-translate-y-1 hover:shadow-lg"
+          >
+            <div class="text-center mb-4">
+              <span class="bg-gray-100 p-3 rounded-full inline-block">⚙️</span>
+            </div>
+            <h3 class="font-semibold text-lg">Infrastructure Management</h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Serverless deployments, cloud architecture design, configuration
+              management, backup strategies, disaster recovery planning
+            </p>
+          </div>
+          <div
+            class="border border-gray-200 rounded-xl p-6 hover:border-sky-500 transition-all hover:-translate-y-1 hover:shadow-lg"
+          >
+            <div class="text-center mb-4">
+              <span class="bg-gray-100 p-3 rounded-full inline-block">🚀</span>
+            </div>
+            <h3 class="font-semibold text-lg">Application Support</h3>
+            <p class="text-sm text-gray-600 mt-2">
+              SaaS integration, database optimization, API gateway
+              configuration, performance tuning, incident response and
+              resolution
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="experience" class="py-20 bg-slate-50">
+    <section id="projects" class="py-20 bg-slate-50">
       <div class="container mx-auto px-6">
         <h2 class="text-3xl font-bold mb-10 text-center">
-          Experience & Lessons Learned
+          Projects & Solutions
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div
             class="bg-white rounded-xl shadow-md overflow-hidden hover:-translate-y-1 hover:shadow-lg transition-all p-6"
           >
-            <h3 class="font-bold text-xl mb-2">Static Site Deployment</h3>
-            <p class="text-gray-700 mb-4">
-              Built and deployed this site using Route 53, ACM, CloudFront, and
-              S3 with a Lambda-backed contact form via API Gateway and SNS.
-              Learned to debug issues across IAM, caching, and Lambda
-              integrations.
-            </p>
-            <ul class="list-disc list-inside text-sm text-gray-600">
-              <li>
-                Fixed 403/500 errors by adjusting CloudFront behaviors and
-                Lambda policies
-              </li>
-              <li>
-                Resolved JSON vs form-urlencoded mismatch in Lambda handler
-              </li>
-              <li>
-                Used CloudFront invalidations to refresh S3 content during
-                updates
-              </li>
-            </ul>
-          </div>
-
-          <div
-            class="bg-white rounded-xl shadow-md overflow-hidden hover:-translate-y-1 hover:shadow-lg transition-all p-6"
-          >
-            <h3 class="font-bold text-xl mb-2">Infrastructure Skills</h3>
-            <p class="text-gray-700 mb-4">
-              Experienced in Linux, networking, and hybrid infrastructure.
-              Skilled at diagnosing and restoring systems quickly to minimize
-              downtime and keep services running across both cloud services and
-              on-prem servers.
-            </p>
-            <ul class="list-disc list-inside text-sm text-gray-600">
-              <li>
-                Configured firewalls, VPNs, and ISP failover on
-                MikroTik/EdgeRouter
-              </li>
-              <li>
-                Managed VPS deployments with NGINX, TLS/SSL, and reverse SSH
-              </li>
-              <li>Automated deployments with Terraform and Docker</li>
-              <li>
-                Supported hybrid environments including cloud services and
-                on-prem servers
-              </li>
-            </ul>
-          </div>
-
-          <div
-            class="bg-white rounded-xl shadow-md overflow-hidden hover:-translate-y-1 hover:shadow-lg transition-all p-6"
-          >
             <h3 class="font-bold text-xl mb-2">
-              Application & Business Impact
+              Static & Serverless Site Deployment
             </h3>
             <p class="text-gray-700 mb-4">
-              Supported mission-critical SaaS and infrastructure for
-              restaurants, ensuring revenue recovery and customer satisfaction
-              across multiple systems.
+              Built a fully serverless static website using Route 53, ACM,
+              CloudFront, and S3, with a backend powered by API Gateway, Lambda,
+              SNS to handle contact form submissions securely.
             </p>
             <ul class="list-disc list-inside text-sm text-gray-600">
               <li>
-                Recovered and protected <strong>$350k+ annually</strong> by
-                fixing failed end-of-day procedures, correcting SQL payment
-                records, restoring online orders, and resolving network outages
+                Resolved IAM permissions, caching issues, and cross-service
+                integrations
               </li>
               <li>
-                Drove customer revenue growth by creating loyalty campaigns,
-                coupons, and multi-store features
+                Delivered a production-ready architecture with minimal cost and
+                maximum scalability
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="bg-white rounded-xl shadow-md overflow-hidden hover:-translate-y-1 hover:shadow-lg transition-all p-6"
+          >
+            <h3 class="font-bold text-xl mb-2">AWS VPC with Bastion and NAT</h3>
+            <p class="text-gray-700 mb-4">
+              Designed and deployed a secure AWS VPC configuration including
+              public/private subnets, bastion host for secure SSH access,
+              Internet Gateway and NAT instance for outbound traffic.
+            </p>
+            <ul class="list-disc list-inside text-sm text-gray-600">
+              <li>
+                Enabled controlled remote access while minimizing exposure to
+                public networks
               </li>
               <li>
-                Reduced repeat incidents by documenting solutions and training
-                customers through KB articles
+                Reduced operational overhead and improved compliance posture
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="bg-white rounded-xl shadow-md overflow-hidden hover:-translate-y-1 hover:shadow-lg transition-all p-6"
+          >
+            <h3 class="font-bold text-xl mb-2">Linux VPS Deployments</h3>
+            <p class="text-gray-700 mb-4">
+              Deployed and maintained multiple applications on Linux VPS using
+              NGINX reverse proxy, TLS/SSL certificates via Certbot, and reverse
+              SSH tunnel for secure on-premise access.
+            </p>
+            <ul class="list-disc list-inside text-sm text-gray-600">
+              <li>
+                Hosted tools like Wallabag and NextCloud in isolated
+                environments
+              </li>
+              <li>
+                Ensured high availability, performance, and secure data handling
               </li>
             </ul>
           </div>
